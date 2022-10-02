@@ -1,0 +1,22 @@
+{
+  "name": "crm-pointer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server",
+    "dev": "nodemon ./src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "graphql": "^15.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.8.0"
+  }
+}
